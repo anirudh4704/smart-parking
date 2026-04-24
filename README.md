@@ -7,7 +7,7 @@ A full-stack parking management app built with **FastAPI** (backend) and **React
 ## Project Structure
 
 ```
-parking_app/
+smart-parking/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py
@@ -45,7 +45,7 @@ parking_app/
 ## 1 — Run the Backend
 
 ```bash
-cd parking_app/backend
+cd backend
 
 # Create and activate virtual environment
 python3 -m venv venv
@@ -69,7 +69,7 @@ Swagger docs at: **http://localhost:8000/docs**
 Open a **new terminal tab**:
 
 ```bash
-cd parking_app/frontend
+cd frontend
 
 npm install
 npm run dev
